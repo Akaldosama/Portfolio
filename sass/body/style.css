@@ -1,0 +1,365 @@
+#main1 .container {
+  padding: 50px 80px;
+  background-color: #000000;
+  max-width: 1500px;
+  margin: auto;
+}
+#main1 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+#main1 .container .parent .child {
+  width: 50%;
+  color: white;
+}
+#main1 .container .parent .child img {
+  width: 100%;
+}
+#main1 .container .parent .child h1 {
+  font-size: 55px;
+  font-weight: 300;
+}
+#main1 .container .parent .child p {
+  font-size: 23px;
+  margin: 20px 0px;
+  letter-spacing: 1px;
+}
+
+#main2 .container {
+  padding: 50px 80px;
+  max-width: 1500px;
+  margin: auto;
+  background-color: #000000;
+}
+#main2 .container h3 {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 20px 0px;
+  color: white;
+}
+#main2 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+#main2 .container .parent .child {
+  width: 50%;
+  padding: 20px;
+}
+#main2 .container .parent .child p {
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  text-align: justify;
+}
+#main2 .container .parent .child h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
+#main2 .container .parent .child .box {
+  width: 100%;
+  background-color: #02897A;
+  height: 20px;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: right;
+}
+#main2 .container .parent .child .box p {
+  color: #000;
+  margin: auto;
+  font-weight: 600;
+}
+#main2 .container .parent .child .box .box-st-span {
+  width: 10%;
+  background-color: white;
+}
+#main2 .container .parent .child .box .box-nd-span {
+  width: 30%;
+  background-color: white;
+}
+#main2 .container .parent .child .box .box-rd-span {
+  width: 50%;
+  background-color: white;
+}
+
+#main3 .container {
+  background-color: #000;
+  margin: auto;
+  max-width: 1500px;
+  padding: 50px 80px;
+}
+#main3 .container h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 36px;
+}
+#main3 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+  gap: 20px;
+}
+#main3 .container .parent .child img {
+  border-radius: 13px;
+  width: 100%;
+}
+#main3 .container .parent .child img:hover {
+  filter: blur(2px);
+}
+#main3 .container .parent .child:nth-child(1) {
+  width: 300px;
+  height: 170px;
+  order: 3;
+}
+#main3 .container .parent .child:nth-child(2) {
+  width: 300px;
+  height: 170px;
+  order: 1;
+}
+#main3 .container .parent .child:nth-child(3) {
+  width: 300px;
+  height: 238px;
+  order: 2;
+}
+#main3 .container .parent .child:nth-child(4) {
+  width: 300px;
+  height: 360px;
+  order: 4;
+}
+#main3 .container .parent .child:nth-child(5) {
+  width: 300px;
+  height: 375px;
+  order: 6;
+}
+#main3 .container .parent .child:nth-child(6) {
+  width: 300px;
+  height: 190px;
+  order: 5;
+}
+
+#main4 .container {
+  padding: 40px 80px;
+  margin: auto;
+  background-color: #000;
+  max-width: 1500px;
+}
+#main4 .container .parent .child {
+  width: 100%;
+  padding: 20px;
+}
+#main4 .container .parent .child iframe {
+  width: 100%;
+}
+
+#main5 .container {
+  background-color: #000;
+  margin: auto;
+  max-width: 1500px;
+  padding: 50px 80px;
+}
+#main5 .container .parent {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+#main5 .container .parent .child {
+  width: 50%;
+  padding: 40px;
+}
+#main5 .container .parent .child:nth-child(1) {
+  text-align: left;
+}
+#main5 .container .parent .child:nth-child(1) span {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
+  font-size: 20px;
+}
+#main5 .container .parent .child:nth-child(1) span i {
+  font-size: 40px;
+}
+#main5 .container .parent .child:nth-child(2) {
+  text-align: left;
+}
+#main5 .container .parent .child:nth-child(2) h3 {
+  margin: 15px 0px;
+  font-size: 23px;
+}
+#main5 .container .parent .child:nth-child(2) input {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  margin: 15px 0px;
+  border-bottom: 1px solid white;
+  width: 90%;
+  padding: 10px;
+}
+#main5 .container .parent .child:nth-child(2) button {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  background-color: #02897A;
+  border: none;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) and (max-width: 989px) {
+  #main1 .container {
+    padding: 40px;
+  }
+  #main1 .container .parent .child h1 {
+    font-size: 40px;
+  }
+  #main1 .container .parent .child p {
+    font-size: 20px;
+  }
+  #main2 .container .parent .child p {
+    word-spacing: 0;
+    line-height: 20px;
+  }
+  #main2 .container .parent .child p span {
+    display: none;
+  }
+  #main5 .container {
+    padding: 40px;
+  }
+  #main5 .container .parent {
+    gap: 0px;
+  }
+}
+@media (min-width: 448px) and (max-width: 767px) {
+  #main1 .container {
+    padding: 20px;
+  }
+  #main1 .container .parent {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  #main1 .container .parent .child {
+    width: 100%;
+    text-align: center;
+  }
+  #main1 .container .parent .child h1 {
+    font-size: 30px;
+  }
+  #main1 .container .parent .child p {
+    font-size: 18px;
+  }
+  #main2 .container {
+    padding: 20px;
+  }
+  #main2 .container .parent {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #main2 .container .parent .child {
+    width: 100%;
+  }
+  #main2 .container .parent .child p {
+    word-spacing: 0;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  #main2 .container .parent .child p span {
+    display: none;
+  }
+  #main3 .container {
+    padding: 20px;
+  }
+  #main4 .container {
+    padding: 20px;
+  }
+  #main4 .container .parent .child {
+    height: 400px;
+  }
+  #main4 .container .parent .child iframe {
+    height: 100%;
+  }
+  #main5 .container {
+    padding: 20px;
+  }
+  #main5 .container .parent {
+    display: grid;
+    place-items: center;
+    gap: 0px;
+  }
+  #main5 .container .parent .child {
+    width: 100%;
+  }
+}
+@media (max-width: 447px) {
+  #main1 .container {
+    padding: 20px;
+  }
+  #main1 .container .parent {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  #main1 .container .parent .child {
+    width: 100%;
+    text-align: center;
+  }
+  #main1 .container .parent .child h1 {
+    font-size: 30px;
+  }
+  #main1 .container .parent .child p {
+    font-size: 18px;
+  }
+  #main2 .container {
+    padding: 20px;
+  }
+  #main2 .container .parent {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #main2 .container .parent .child {
+    width: 100%;
+  }
+  #main2 .container .parent .child p {
+    word-spacing: 0;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  #main2 .container .parent .child p span {
+    display: none;
+  }
+  #main3 .container {
+    padding: 20px;
+  }
+  #main4 .container {
+    padding: 10px;
+  }
+  #main4 .container .parent .child {
+    height: 400px;
+  }
+  #main4 .container .parent .child iframe {
+    height: 100%;
+  }
+  #main5 .container {
+    padding: 20px;
+  }
+  #main5 .container .parent {
+    display: grid;
+    place-items: center;
+    gap: 0px;
+  }
+  #main5 .container .parent .child {
+    width: 100%;
+  }
+  #main5 .container .parent .child span {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

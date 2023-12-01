@@ -1,0 +1,160 @@
+@import url(../body/style.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  padding: 15px 80px;
+}
+header ul {
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  list-style: none;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 80px;
+  background-color: #000;
+  color: white;
+}
+nav .logo {
+  font-size: 25px;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-size: 18px;
+}
+nav button:nth-child(1) {
+  padding: 7px 20px;
+  border: 1px solid #02897A;
+  color: white;
+  border-radius: 8px;
+  background: transparent;
+  font-size: 18px;
+}
+nav button:nth-child(2) {
+  padding: 8px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #02897A;
+  font-size: 18px;
+}
+nav span {
+  display: flex;
+  gap: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 989px) {
+  header {
+    padding: 15px 40px;
+  }
+  header ul {
+    font-size: 16px;
+    word-spacing: 0;
+  }
+  nav {
+    padding: 15px 40px;
+  }
+  nav .logo {
+    font-size: 22px;
+  }
+  nav ul {
+    font-size: 16px;
+  }
+  nav button:nth-child(1) {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+  nav button:nth-child(2) {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 448px) and (max-width: 767px) {
+  header {
+    padding: 15px 20px;
+  }
+  header ul {
+    font-size: 16px;
+    word-spacing: 0;
+    gap: 20px;
+  }
+  header .hide-header {
+    display: none;
+  }
+  nav {
+    padding: 15px 20px;
+  }
+  nav .logo {
+    font-size: 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav button:nth-child(1) {
+    padding: 4px 5px;
+    font-size: 12px;
+  }
+  nav button:nth-child(2) {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
+  nav span {
+    display: flex;
+    gap: 10px;
+  }
+}
+@media (max-width: 447px) {
+  header {
+    padding: 15px;
+  }
+  header ul {
+    font-size: 14px;
+    word-spacing: 0;
+    gap: 20px;
+  }
+  header .hide-header {
+    display: none;
+  }
+  nav {
+    padding: 15px 20px;
+  }
+  nav .logo {
+    font-size: 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav button:nth-child(1) {
+    padding: 4px 5px;
+    font-size: 12px;
+  }
+  nav button:nth-child(2) {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
+  nav span {
+    display: flex;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
